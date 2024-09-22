@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+</head>
+
+<body>
+   <form  action="/action_page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="text" name="a">+
+    <input type="text" name="b">=
+    <output name="x" for="a b"></output><br>
+        <fieldset>
+            <legend>personal detail</legend>
+        <label> enter your name</label><br>
+        <input type="text" placeholder="name"><br>
+        <label> enter your password</label><br>
+        <input type="password" placeholder="password"><br>
+        <label>Enter yor contact no.</label>
+        <input type="password" placeholder="phone no."><br>
+        <label> gender</label><br>
+        <input type="Radio" name="1">Male
+        <input type="Radio" name="1">Female<br>
+        </fieldset>
+        <fieldset>
+            <legend>Academic Details</legend>
+        <label>Select your sbjects</label><br>
+        <input type="checkbox" name="1">Maths<br>
+        <input type="checkbox" name="2">Physics<br>
+        <input type="checkbox" name="3">Chemistry<br>
+        <input type="checkbox" name="4">Biology<br>
+        <label> enter your Grade</label>
+        <select name="Grade">
+            <option name="grade 9"> Grade 9</option>
+            <option name="grade 10"> Grade 10</option>
+            <option name="grade 11"> Grade 11</option>
+            <option name="grade 12"> Grade 12</option>
+        </select>
+        </fieldset>
+        
+        
+
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
